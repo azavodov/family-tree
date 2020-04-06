@@ -1,0 +1,103 @@
+alina female
+lena female
+tanya female
+sveta female
+luda female
+irina female
+galya female
+marina female
+galina female
+masha female
+maria female
+katia female
+anastasia female
+
+andrey male
+serg male
+yury male
+pavel male
+eugeniy male
+vasiliy male
+nikolay male
+petr male
+konstantin male
+fedor male
+sergey male
+
+alina birth 2001
+lena birth 2000
+tanya birth 1985
+sveta birth 1991
+luda birth 1970
+irina birth 1965
+galya birth 1955
+marina birth 1960
+galina birth 1941
+masha birth 1926
+maria birth 1910
+katia birth 1910
+anastasia birth 1870
+andrey birth 1998
+serg birth 1985
+yury birth 1965
+pavel birth 1958
+eugeniy birth 1949
+vasiliy birth 1956
+nikolay birth 1939
+petr birth 1925
+konstantin birth 1910
+fedor birth 1907
+sergey birth 1867
+
+
+serg death 2006
+nikolay death 1994
+masha death 2008
+petr death 1978
+konstantin death 1963
+maria death 1997
+katia death 2002
+fedor death 1961
+sergey death 1915
+anastasia death 1920
+
+yury parent alina
+luda parent alina
+irina parent lena
+irina parent andrey
+pavel parent lena
+pavel parent andrey
+galya parent serg
+eugeniy parent serg
+marina parent tanya
+marina parent sveta
+vasiliy parent tanya
+vasiliy parent sveta
+galina parent luda
+galina parent irina
+nikolay parent luda
+nikolay parent irina
+masha parent pavel
+masha parent galya
+masha parent marina
+petr parent pavel
+petr parent galya
+petr parent marina
+konstantin parent galina
+maria parent galina
+katia parent nikolay
+fedor parent nikolay
+sergey parent maria
+anastasia parent maria
+
+yury marriage luda 2003
+irina marriage pavel 1997
+galya marriage eugeniy 1985
+marina marriage vasiliy 1983
+galina marriage nikolay 1963
+masha marriage petr 1951
+konstantin marriage maria 1932
+katia marriage fedor 1936
+sergey marriage anastasia 1898
+
+galya divorce eugeniy 2010

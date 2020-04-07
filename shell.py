@@ -5,7 +5,7 @@ class Shell:
     start_sign = '> '
     exit_command = 'exit'
     query_command = '?-'
-    cmd_pattern = '<subject> <predicate> [objects] | <?-> <query> | exit | table'
+    cmd_pattern = '<subject> <predicate> [objects] | <?-> <query> | table | back | exit'
 
     def __init__(self, database: str = None, program: str = None):
         self.family_tree = FamilyTree()
@@ -24,6 +24,10 @@ class Shell:
             return
         if command == 'table':
             self.family_tree.print_as_table()
+            return
+        if command == 'back':
+            self.family_tree.remove_last_predicate()
+            return
 
         args = command.split()
         if len(args) < 2:
@@ -32,7 +36,7 @@ class Shell:
         if args[0] == self.query_command:
             self.family_tree.query(' '.join(args[1:]))
         else:
-            self.family_tree.apply(args[1], [args[0]] + args[2:])
+            self.family_tree.apply(args)
 
     def parse_file(self, file):
         with open(file) as f:
